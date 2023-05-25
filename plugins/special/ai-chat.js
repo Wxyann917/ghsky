@@ -14,7 +14,7 @@ exports.run = {
          if (!text) return client.reply(m.chat, Func.example(isPrefix, command, 'siapa ketua umum partai pdip'), m)
          client.sendReact(m.chat, '🕒', m.key)
          const configuration = new Configuration({
-            apiKey: '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'
+            apiKey: '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'
          })
          const openai = new OpenAIApi(configuration)
          const json = await openai.createCompletion({
